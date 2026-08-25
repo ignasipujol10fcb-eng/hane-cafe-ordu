@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Hane Cafe centered profile logo">
+<defs>
+ <radialGradient id="bg" cx="50%" cy="42%"><stop offset="0" stop-color="#77769d"/><stop offset="1" stop-color="#3f4169"/></radialGradient>
+ <linearGradient id="ring" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff9f00"/><stop offset=".45" stop-color="#ff3b30"/><stop offset="1" stop-color="#e000b8"/></linearGradient>
+ <clipPath id="clip"><circle cx="256" cy="256" r="185"/></clipPath>
+</defs>
+<rect width="512" height="512" fill="#f7f0e7"/>
+<circle cx="256" cy="256" r="226" fill="none" stroke="#c99538" stroke-width="9"/>
+<circle cx="256" cy="256" r="211" fill="#fff" stroke="#fff" stroke-width="5"/>
+<circle cx="256" cy="256" r="202" fill="none" stroke="url(#ring)" stroke-width="13"/>
+<circle cx="256" cy="256" r="188" fill="#fff" stroke="#fff" stroke-width="7"/>
+<circle cx="256" cy="256" r="185" fill="url(#bg)"/>
+<g clip-path="url(#clip)">
+ <path d="M58 500 Q95 350 170 300 L342 300 Q420 350 454 500Z" fill="#8d2920"/>
+ <path d="M83 500 Q110 370 178 323 L214 305 L160 500Z" fill="#a93b25" opacity=".95"/>
+ <path d="M429 500 Q405 370 335 322 L300 305 L354 500Z" fill="#70251d" opacity=".95"/>
+ <path d="M176 252 Q181 147 256 136 Q331 147 336 252 L316 350 L196 350Z" fill="#1d2239"/>
+ <ellipse cx="256" cy="205" rx="82" ry="82" fill="#e8893d"/>
+ <path d="M180 190 Q187 112 256 105 Q325 112 332 190 Q306 165 256 164 Q206 165 180 190Z" fill="#a93629"/>
+ <path d="M198 206 Q218 190 237 207" fill="none" stroke="#202238" stroke-width="10" stroke-linecap="round"/>
+ <path d="M275 207 Q294 190 314 206" fill="none" stroke="#202238" stroke-width="10" stroke-linecap="round"/>
+ <circle cx="226" cy="221" r="6" fill="#171827"/><circle cx="286" cy="221" r="6" fill="#171827"/>
+ <path d="M252 218 L242 246 L260 246" fill="none" stroke="#b75e31" stroke-width="6" stroke-linecap="round"/>
+ <path d="M214 253 Q256 286 298 253 Q284 310 256 325 Q228 310 214 253Z" fill="#39435c"/>
+ <path d="M205 247 Q226 270 256 270 Q286 270 307 247" fill="none" stroke="#56617a" stroke-width="7" stroke-linecap="round"/>
+ <path d="M143 270 Q170 290 192 328 L217 500 L118 500Z" fill="#a23a28"/>
+ <path d="M369 270 Q342 290 320 328 L295 500 L394 500Z" fill="#7b281f"/>
+ <path d="M238 387 Q256 376 274 387 L282 455 L230 455Z" fill="#b36c36"/>
+ <ellipse cx="304" cy="424" rx="30" ry="21" fill="#8c5b2c"/>
+ <ellipse cx="304" cy="420" rx="23" ry="13" fill="#3d281a"/>
+ <path d="M265 427 Q285 414 292 430 Q284 447 265 447" fill="#e8893d"/>
+</g>
+<circle cx="256" cy="256" r="185" fill="none" stroke="#fff" stroke-width="4"/>
+</svg>
