@@ -4,8 +4,28 @@
   footer>div{grid-column:1/-1;padding-bottom:4px;border-bottom:1px solid #ffffff14}
   footer a{line-height:1.5}
   footer a:last-child{text-align:right}
+
+  /* Keep the hero card visually anchored to the content on narrow screens. */
+  .hero{align-items:flex-start}
+  .hero-content{padding-top:4px}
+  .hero-hours{box-shadow:0 14px 34px #00000026;background:rgba(255,253,249,.96)}
+  .hero-hours a{padding-top:2px}
+}
+@media (max-width: 520px){
+  .nav{padding-left:5vw;padding-right:5vw}
+  .brand{gap:9px}
+  .brand img{width:44px;height:44px}
+  .brand span{font-size:25px}
+  .lang button{padding:6px 8px}
+  .hero{padding-left:5vw;padding-right:5vw}
+  .actions{gap:10px}
+  .btn{padding:13px 18px}
 }
 @media (max-width: 420px){
   footer{grid-template-columns:1fr}
   footer a:last-child{text-align:left}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .btn,.photo,.photo:after{transition:none!important}
 }
