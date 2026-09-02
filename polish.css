@@ -29,3 +29,28 @@
   html{scroll-behavior:auto}
   .btn,.photo,.photo:after{transition:none!important}
 }
+
+/* Quiet finishing touches: improve reading rhythm without changing the content or layout system. */
+.hero h1,.section-head h2,.hours-wrap h2,.visit-card h2,.events-card h2{letter-spacing:-.015em}
+.section-head>p,.hero p{max-width:58ch}
+.photo{background-position:center;image-rendering:auto}
+
+@media (min-width: 1001px){
+  .hero-content{padding-left:2px}
+  .section-head{max-width:1180px;margin-left:auto;margin-right:auto}
+}
+
+@media (min-width: 701px) and (max-width: 1000px){
+  .hero{padding-bottom:86px}
+  .hero-content{max-width:700px}
+  .hero-hours{max-width:300px}
+  .section-head>p{max-width:60ch}
+}
+
+@media (max-width: 520px){
+  .section-head{gap:16px;margin-bottom:34px}
+  .section-head>p{font-size:14px;line-height:1.75}
+  .hero h1{letter-spacing:-.02em}
+  .hero p{line-height:1.65}
+  .photo-grid{margin-top:4px}
+}
