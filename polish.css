@@ -72,3 +72,20 @@
   .gallery .section-head{margin-bottom:30px}
   .photo-grid{gap:10px}
 }
+
+/* Final small-screen composition pass: keep the illustration calm behind the type and avoid edge-cropping the table. */
+@media (max-width: 520px){
+  .hero{min-height:800px;padding-top:54px;padding-bottom:46px}
+  .hero-bg{background-position:63% 58%;background-size:auto 108%;}
+  .hero-content{max-width:34rem}
+  .hero h1{max-width:9ch;margin-bottom:22px}
+  .hero p{max-width:31ch}
+  .hero-hours{margin-top:30px}
+}
+@media (max-width: 380px){
+  .hero{min-height:780px}
+  .hero-bg{background-position:61% 58%;background-size:auto 106%}
+  .hero h1{font-size:50px}
+  .hero p{max-width:29ch}
+  .hero-hours{padding:20px}
+}
