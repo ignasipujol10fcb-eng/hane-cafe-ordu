@@ -54,3 +54,21 @@
   .hero p{line-height:1.65}
   .photo-grid{margin-top:4px}
 }
+
+/* Warm depth: keeps the illustration luminous on the right while protecting copy contrast on the left. */
+.hero-shade{background:radial-gradient(circle at 76% 48%,rgba(255,225,177,.09) 0%,rgba(255,225,177,0) 36%),linear-gradient(90deg,rgba(24,17,13,.56) 0%,rgba(24,17,13,.23) 35%,rgba(24,17,13,.035) 72%,rgba(24,17,13,.07) 100%),linear-gradient(0deg,rgba(20,14,11,.13),transparent 60%);}
+
+@media (max-width:1000px){
+  .hero-shade{background:linear-gradient(180deg,rgba(24,17,13,.10) 0%,rgba(24,17,13,.27) 45%,rgba(24,17,13,.55) 100%);}
+}
+
+/* Give the dark gallery a quieter frame so the artwork reads as a curated collection. */
+.gallery .section-head{margin-bottom:38px}
+.photo-grid{gap:17px}
+.photo{box-shadow:0 8px 26px #00000038}
+.photo:hover{box-shadow:0 14px 32px #00000050}
+
+@media (max-width:520px){
+  .gallery .section-head{margin-bottom:30px}
+  .photo-grid{gap:10px}
+}
