@@ -117,3 +117,17 @@
 @media (min-width:1200px){
   .section-head>p{max-width:46ch}
 }
+
+/* Current-pass polish: make the mobile menu feel like a deliberate panel rather than a loose dropdown. */
+@media (max-width:1000px){
+  .nav nav.open{box-shadow:0 18px 34px #00000012}
+  .nav nav a{padding:2px 0}
+}
+
+/* Prevent tiny viewport rounding from creating a stray horizontal scrollbar. */
+html,body{max-width:100%;overflow-x:hidden}
+
+/* Keep the hours panel optically attached to the hero on tablet widths. */
+@media (min-width:701px) and (max-width:1000px){
+  .hero-hours{margin-top:30px;box-shadow:0 14px 34px #00000022}
+}
