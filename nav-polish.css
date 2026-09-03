@@ -5,3 +5,15 @@
   .nav nav a:hover::after,.nav nav a:focus-visible::after{transform:scaleX(1)}
 }
 @media (prefers-reduced-motion:reduce){.nav nav a::after{transition:none}}
+
+/* Current-pass action polish: a restrained depth cue keeps the hero controls legible without making them feel like floating UI. */
+.btn.primary{box-shadow:0 8px 22px rgba(24,17,13,.14)}
+.btn.glass{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+@media (hover:hover){
+  .btn.primary:hover{box-shadow:0 10px 26px rgba(24,17,13,.18)}
+  .btn.glass:hover{background:rgba(255,255,255,.13)}
+}
+@media (hover:none){
+  .btn.primary:hover{box-shadow:0 8px 22px rgba(24,17,13,.14)}
+  .btn.glass:hover{background:#ffffff0c}
+}
