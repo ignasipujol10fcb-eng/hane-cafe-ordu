@@ -1,0 +1,13 @@
+/* Subtle tablet refinement: calmer hero composition and balanced header spacing between phone and desktop breakpoints. */
+@media (min-width:521px) and (max-width:700px){
+  .nav{padding-left:6vw;padding-right:6vw}
+  .brand img{width:46px;height:46px}
+  .brand span{font-size:26px}
+  .lang{margin-left:10px}
+  .hero{min-height:790px;padding:62px 6vw 54px}
+  .hero-bg{background-position:64% 56%;background-size:auto 108%}
+  .hero-content{max-width:42rem}
+  .hero h1{font-size:58px;max-width:10ch;line-height:.92;margin-bottom:21px}
+  .hero p{max-width:36ch;font-size:17px}
+  .hero-hours{width:310px;margin-top:28px;padding:23px 25px}
+}
