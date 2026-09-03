@@ -1,29 +1,9 @@
 /* Responsive finishing layer: keeps the original visual system intact while giving small screens more breathing room. */
-@media (max-width: 700px){
-  footer{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;padding:30px 6vw;align-items:start}
-  footer>div{grid-column:1/-1;padding-bottom:4px;border-bottom:1px solid #ffffff14}
-  footer a{line-height:1.5}
-  footer a:last-child{text-align:right}
-  .hero{align-items:flex-start}
-  .hero-content{padding-top:4px}
-  .hero-hours{box-shadow:0 14px 34px #00000026;background:rgba(255,253,249,.96)}
-  .hero-hours a{padding-top:2px}
-}
-@media (max-width: 520px){
-  .nav{padding-left:5vw;padding-right:5vw}
-  .brand{gap:9px}
-  .brand img{width:44px;height:44px}
-  .brand span{font-size:25px}
-  .lang button{padding:6px 8px}
-  .hero{padding-left:5vw;padding-right:5vw}
-  .actions{gap:10px}
-  .btn{padding:13px 18px}
-}
+@media (max-width: 700px){footer{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;padding:30px 6vw;align-items:start}footer>div{grid-column:1/-1;padding-bottom:4px;border-bottom:1px solid #ffffff14}footer a{line-height:1.5}footer a:last-child{text-align:right}.hero{align-items:flex-start}.hero-content{padding-top:4px}.hero-hours{box-shadow:0 14px 34px #00000026;background:rgba(255,253,249,.96)}.hero-hours a{padding-top:2px}}
+@media (max-width: 520px){.nav{padding-left:5vw;padding-right:5vw}.brand{gap:9px}.brand img{width:44px;height:44px}.brand span{font-size:25px}.lang button{padding:6px 8px}.hero{padding-left:5vw;padding-right:5vw}.actions{gap:10px}.btn{padding:13px 18px}}
 @media (max-width: 420px){footer{grid-template-columns:1fr}footer a:last-child{text-align:left}}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}.btn,.photo,.photo:after{transition:none!important}}
-.hero h1,.section-head h2,.hours-wrap h2,.visit-card h2,.events-card h2{letter-spacing:-.015em}
-.section-head>p,.hero p{max-width:58ch}
-.photo{background-position:center;image-rendering:auto}
+.hero h1,.section-head h2,.hours-wrap h2,.visit-card h2,.events-card h2{letter-spacing:-.015em}.section-head>p,.hero p{max-width:58ch}.photo{background-position:center;image-rendering:auto}
 @media (min-width: 1001px){.hero-content{padding-left:2px}.section-head{max-width:1180px;margin-left:auto;margin-right:auto}}
 @media (min-width: 701px) and (max-width: 1000px){.hero{padding-bottom:86px}.hero-content{max-width:700px}.hero-hours{max-width:300px}.section-head>p{max-width:60ch}}
 @media (max-width:520px){.section-head{gap:16px;margin-bottom:34px}.section-head>p{font-size:14px;line-height:1.75}.hero h1{letter-spacing:-.02em}.hero p{line-height:1.65}.photo-grid{margin-top:4px}}
@@ -43,54 +23,18 @@
 html,body{max-width:100%;overflow-x:hidden}
 @media (min-width:701px) and (max-width:1000px){.hero-hours{margin-top:30px;box-shadow:0 14px 34px #00000022}}
 .about,.experience,.reviews{background-image:radial-gradient(circle at 15% 0%,rgba(194,141,62,.045),transparent 34%),radial-gradient(circle at 88% 100%,rgba(120,88,49,.035),transparent 38%)}
-.quick{background-image:linear-gradient(90deg,rgba(255,255,255,.28),transparent 28%,transparent 72%,rgba(194,141,62,.025))}
-.hours-section{background-image:radial-gradient(circle at 82% 22%,rgba(255,255,255,.36),transparent 36%)}
-footer{border-top:1px solid rgba(255,255,255,.06)}
-
-/* Current-pass mobile refinement: keep the Instagram card comfortably inside narrow viewports. */
-@media (max-width: 520px){
-  .instagram-layout{gap:28px}
-  .instagram-embed-wrap{width:100%;overflow:hidden;justify-content:flex-start}
-  .instagram-media{min-width:0!important;width:100%!important;max-width:540px!important}
-  .instagram-copy h3{font-size:38px;line-height:1.02}
-}
-@media (max-width: 360px){
-  .instagram-copy h3{font-size:35px}
-  .instagram-copy p{font-size:14px;line-height:1.7}
-}
-
-/* Current-pass hero grounding: make the hours card feel integrated with the hero rather than suspended above it. */
-@media (min-width: 1001px){
-  .hero-hours{bottom:28px;box-shadow:0 14px 36px #00000026;border-color:#e0d1c0}
-}
-@media (min-width: 1400px){
-  .hero-bg{background-position:61% center}
-  .hero-shade{background:radial-gradient(circle at 74% 46%,rgba(255,225,177,.10) 0%,rgba(255,225,177,0) 34%),linear-gradient(90deg,rgba(24,17,13,.56) 0%,rgba(24,17,13,.21) 38%,rgba(24,17,13,.025) 74%,rgba(24,17,13,.06) 100%),linear-gradient(0deg,rgba(20,14,11,.13),transparent 60%)}
-}
-
-/* Current-pass type finish: cleaner text rasterisation and a quieter hero-to-section transition. */
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
-.hero-shade{box-shadow:inset 0 -78px 96px rgba(20,14,11,.09)}
+.quick{background-image:linear-gradient(90deg,rgba(255,255,255,.28),transparent 28%,transparent 72%,rgba(194,141,62,.025))}.hours-section{background-image:radial-gradient(circle at 82% 22%,rgba(255,255,255,.36),transparent 36%)}footer{border-top:1px solid rgba(255,255,255,.06)}
+@media (max-width: 520px){.instagram-layout{gap:28px}.instagram-embed-wrap{width:100%;overflow:hidden;justify-content:flex-start}.instagram-media{min-width:0!important;width:100%!important;max-width:540px!important}.instagram-copy h3{font-size:38px;line-height:1.02}}
+@media (max-width: 360px){.instagram-copy h3{font-size:35px}.instagram-copy p{font-size:14px;line-height:1.7}}
+@media (min-width: 1001px){.hero-hours{bottom:28px;box-shadow:0 14px 36px #00000026;border-color:#e0d1c0}}
+@media (min-width: 1400px){.hero-bg{background-position:61% center}.hero-shade{background:radial-gradient(circle at 74% 46%,rgba(255,225,177,.10) 0%,rgba(255,225,177,0) 34%),linear-gradient(90deg,rgba(24,17,13,.56) 0%,rgba(24,17,13,.21) 38%,rgba(24,17,13,.025) 74%,rgba(24,17,13,.06) 100%),linear-gradient(0deg,rgba(20,14,11,.13),transparent 60%)}}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}.hero-shade{box-shadow:inset 0 -78px 96px rgba(20,14,11,.09)}
 @media (max-width:1000px){.hero-shade{box-shadow:inset 0 -62px 82px rgba(20,14,11,.08)}}
+section[id]{scroll-margin-top:96px}@media (max-width:1000px){section[id]{scroll-margin-top:82px}}
+@media (max-width:1000px){.hero{flex-direction:column}.hero-content{flex:0 1 auto}.hero-hours{flex:0 0 auto}}
+.photo{isolation:isolate}.photo:before{content:'';position:absolute;inset:0;border:1px solid rgba(255,255,255,.10);border-radius:inherit;pointer-events:none;opacity:.72}@media (hover:none){.photo:before{opacity:.5}}
+@media (max-width:1000px){.menu-btn{width:44px;height:44px;display:grid;place-items:center;margin-left:12px;padding:0}.nav nav a{min-height:44px;display:flex;align-items:center;padding:0 2px}}
 
-/* Current-pass anchor polish: keep sticky navigation from covering section headings after in-page jumps. */
-section[id]{scroll-margin-top:96px}
-@media (max-width:1000px){section[id]{scroll-margin-top:82px}}
-
-/* Current-pass responsive grounding: stack the hero content and opening-hours panel on compact screens. */
-@media (max-width:1000px){
-  .hero{flex-direction:column}
-  .hero-content{flex:0 1 auto}
-  .hero-hours{flex:0 0 auto}
-}
-
-/* Current-pass gallery polish: give the illustrated tiles a quieter, more editorial frame. */
-.photo{isolation:isolate}
-.photo:before{content:'';position:absolute;inset:0;border:1px solid rgba(255,255,255,.10);border-radius:inherit;pointer-events:none;opacity:.72}
-@media (hover:none){.photo:before{opacity:.5}}
-
-/* Current-pass mobile navigation polish: give menu items and the menu control a comfortable touch target without adding visual bulk. */
-@media (max-width:1000px){
-  .menu-btn{width:44px;height:44px;display:grid;place-items:center;margin-left:12px;padding:0}
-  .nav nav a{min-height:44px;display:flex;align-items:center;padding:0 2px}
-}
+/* Current-pass hours polish: reduce the floating-card effect on compact hero layouts and add a quiet café-gold anchor. */
+@media (max-width:1000px){.hero-hours{border-top:2px solid #c28d3e;box-shadow:0 8px 22px #00000018;background:rgba(255,253,249,.97)}}
+@media (max-width:520px){.hero-hours{margin-top:28px;padding-top:20px}}
