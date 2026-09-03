@@ -89,3 +89,17 @@
   .hero p{max-width:29ch}
   .hero-hours{padding:20px}
 }
+
+/* Keep touch devices still and polished; reserve lift/brightness for true hover pointers. */
+@media (hover: none){
+  .photo:hover{transform:none;filter:none;box-shadow:0 8px 26px #00000038}
+  .btn:hover{transform:none}
+}
+
+/* A restrained edge treatment keeps gallery tiles grounded against the dark section. */
+.photo{border:1px solid rgba(255,255,255,.08)}
+
+/* Slightly larger visual cadence on wide galleries without making the grid feel airy. */
+@media (min-width: 1100px){
+  .photo-grid{gap:18px}
+}
