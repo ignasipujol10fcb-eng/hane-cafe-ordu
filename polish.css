@@ -103,3 +103,17 @@
 @media (min-width: 1100px){
   .photo-grid{gap:18px}
 }
+
+/* Typography polish: let editorial headings wrap at natural phrase boundaries. */
+.hero h1,.section-head h2,.hours-wrap h2,.visit-card h2,.events-card h2,.instagram-copy h3{ text-wrap:balance; }
+
+/* Make the compact navigation feel intentional at the tablet breakpoint. */
+@media (min-width:701px) and (max-width:1000px){
+  .nav{padding-left:6vw;padding-right:6vw}
+  .lang{margin-left:12px}
+}
+
+/* Keep long section descriptions from becoming visually heavy on very wide screens. */
+@media (min-width:1200px){
+  .section-head>p{max-width:46ch}
+}
