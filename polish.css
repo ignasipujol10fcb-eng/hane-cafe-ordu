@@ -83,3 +83,8 @@ section[id]{scroll-margin-top:96px}
   .hero-content{flex:0 1 auto}
   .hero-hours{flex:0 0 auto}
 }
+
+/* Current-pass gallery polish: give the illustrated tiles a quieter, more editorial frame. */
+.photo{isolation:isolate}
+.photo:before{content:'';position:absolute;inset:0;border:1px solid rgba(255,255,255,.10);border-radius:inherit;pointer-events:none;opacity:.72}
+@media (hover:none){.photo:before{opacity:.5}}
