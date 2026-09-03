@@ -17,3 +17,9 @@
   .btn.primary:hover{box-shadow:0 8px 22px rgba(24,17,13,.14)}
   .btn.glass:hover{background:#ffffff0c}
 }
+
+/* Current-pass mobile menu polish: quiet dividers make the expanded navigation easier to scan without adding visual clutter. */
+@media (max-width:1000px){
+  .nav nav.open a{padding:11px 0;border-bottom:1px solid #ece4da}
+  .nav nav.open a:last-child{border-bottom:0;padding-bottom:2px}
+}
