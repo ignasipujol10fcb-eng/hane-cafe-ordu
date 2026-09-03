@@ -67,3 +67,8 @@ footer{border-top:1px solid rgba(255,255,255,.06)}
   .hero-bg{background-position:61% center}
   .hero-shade{background:radial-gradient(circle at 74% 46%,rgba(255,225,177,.10) 0%,rgba(255,225,177,0) 34%),linear-gradient(90deg,rgba(24,17,13,.56) 0%,rgba(24,17,13,.21) 38%,rgba(24,17,13,.025) 74%,rgba(24,17,13,.06) 100%),linear-gradient(0deg,rgba(20,14,11,.13),transparent 60%)}
 }
+
+/* Current-pass type finish: cleaner text rasterisation and a quieter hero-to-section transition. */
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+.hero-shade{box-shadow:inset 0 -78px 96px rgba(20,14,11,.09)}
+@media (max-width:1000px){.hero-shade{box-shadow:inset 0 -62px 82px rgba(20,14,11,.08)}}
