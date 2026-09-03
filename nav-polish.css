@@ -6,7 +6,7 @@
 }
 @media (prefers-reduced-motion:reduce){.nav nav a::after{transition:none}}
 
-/* Current-pass action polish: a restrained depth cue keeps the hero controls legible without making them feel like floating UI. */
+/* Action polish: a restrained depth cue keeps the hero controls legible without making them feel like floating UI. */
 .btn.primary{box-shadow:0 8px 22px rgba(24,17,13,.14)}
 .btn.glass{backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
 @media (hover:hover){
@@ -18,8 +18,16 @@
   .btn.glass:hover{background:#ffffff0c}
 }
 
-/* Current-pass mobile menu polish: quiet dividers make the expanded navigation easier to scan without adding visual clutter. */
+/* Mobile menu polish: quiet dividers make the expanded navigation easier to scan without visual clutter. */
 @media (max-width:1000px){
   .nav nav.open a{padding:11px 0;border-bottom:1px solid #ece4da}
   .nav nav.open a:last-child{border-bottom:0;padding-bottom:2px}
+}
+
+/* Gallery polish: keep the editorial grid grounded instead of making tiles visibly lift off the page. */
+@media (hover:hover){
+  .photo:hover{transform:none;filter:brightness(1.045);box-shadow:inset 0 0 0 1px rgba(239,209,155,.32),0 10px 30px #0004}
+}
+@media (prefers-reduced-motion:reduce){
+  .photo{transition:none}
 }
