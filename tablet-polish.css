@@ -11,3 +11,9 @@
   .hero p{max-width:36ch;font-size:17px}
   .hero-hours{width:310px;margin-top:28px;padding:23px 25px}
 }
+
+/* Current-pass tablet atmosphere: a softer illuminated focal area keeps the illustrated hero warm while preserving readable copy. */
+@media (min-width:521px) and (max-width:700px){
+  .hero-shade{background:radial-gradient(circle at 73% 40%,rgba(255,218,166,.09) 0%,rgba(255,218,166,0) 31%),linear-gradient(180deg,rgba(24,17,13,.11) 0%,rgba(24,17,13,.29) 45%,rgba(24,17,13,.57) 100%)}
+  .hero-hours{box-shadow:0 14px 34px #00000020;border-color:#e0d1c0}
+}
