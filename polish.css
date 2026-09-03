@@ -40,3 +40,5 @@ section[id]{scroll-margin-top:96px}@media (max-width:1000px){section[id]{scroll-
 /* Current-pass gallery polish: keep the editorial image wall firmly grounded rather than lifting tiles on hover. */
 .photo:hover{transform:none;filter:brightness(1.045);box-shadow:0 10px 28px #00000042}
 .photo:after{transform:none}.photo:hover:after{transform:none}
+/* Current-pass hero polish: visually anchor the desktop hours panel to the composition without adding another card-like layer. */
+@media (min-width:1001px){.hero-hours{border-top:2px solid #c28d3e;box-shadow:0 10px 28px #00000022}}
