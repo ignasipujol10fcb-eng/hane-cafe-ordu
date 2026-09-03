@@ -31,3 +31,6 @@
 @media (prefers-reduced-motion:reduce){
   .photo{transition:none}
 }
+
+/* Current-pass focus polish: give keyboard users a quiet gold frame that belongs to the image wall. */
+.photo:focus-visible{outline:1px solid #d7aa61;outline-offset:3px;filter:brightness(1.045)}
