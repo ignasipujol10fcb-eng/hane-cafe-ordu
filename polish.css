@@ -49,3 +49,6 @@ section[id]{scroll-margin-top:96px}@media (max-width:1000px){section[id]{scroll-
 /* Current-pass hero balance: slightly reduce the mobile illustration scale so the table artwork reads as a backdrop, not a cropped foreground object. */
 @media (max-width:520px){.hero-bg{background-size:auto 104%}}
 @media (max-width:380px){.hero-bg{background-size:auto 102%}}
+/* Current-pass interaction polish: keep buttons visually anchored instead of translating upward on hover. */
+.btn:hover{transform:none;filter:brightness(1.025)}
+@media (hover:none){.btn:hover{filter:none}}
