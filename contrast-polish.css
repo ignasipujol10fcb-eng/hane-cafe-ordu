@@ -14,3 +14,9 @@
 
 /* Keep the small gold details crisp against the light backgrounds while retaining the established café palette. */
 .instagram-copy p{color:#625950}
+
+/* Current-pass editorial card polish: use quiet borders and a restrained top rule instead of pronounced floating shadows. */
+.hours-card,
+.review-grid article{box-shadow:none;border-color:#d9cec0}
+.hours-card{border-top:2px solid #c28d3e}
+.review-grid article{border-top:2px solid #d3a255}
