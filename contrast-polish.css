@@ -4,3 +4,13 @@
 .experience .kicker,
 .hours-section .kicker,
 .reviews .kicker{color:#94662f}
+
+/* Current-pass reading polish: slightly deepen supporting copy on pale surfaces so the warm palette stays refined without losing clarity. */
+.instagram-section .section-head>p,
+.about .section-head>p,
+.experience .section-head>p,
+.hours-section>div>div:first-child p,
+.reviews .section-head>p{color:#5f564e}
+
+/* Keep the small gold details crisp against the light backgrounds while retaining the established café palette. */
+.instagram-copy p{color:#625950}
