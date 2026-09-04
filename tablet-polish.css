@@ -17,3 +17,11 @@
   .hero-shade{background:radial-gradient(circle at 73% 40%,rgba(255,218,166,.09) 0%,rgba(255,218,166,0) 31%),linear-gradient(180deg,rgba(24,17,13,.11) 0%,rgba(24,17,13,.29) 45%,rgba(24,17,13,.57) 100%)}
   .hero-hours{box-shadow:0 14px 34px #00000020;border-color:#e0d1c0}
 }
+
+/* Current-pass tablet hero balance: keep the illustrated opening compact and composed on medium screens without changing content. */
+@media (min-width:701px) and (max-width:820px){
+  .hero{min-height:700px;padding-top:62px;padding-bottom:74px}
+  .hero h1{font-size:58px;max-width:11ch}
+  .hero p{font-size:17px;max-width:54ch}
+  .hero-hours{margin-top:26px}
+}
